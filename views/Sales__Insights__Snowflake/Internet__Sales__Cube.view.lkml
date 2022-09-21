@@ -901,25 +901,6 @@ view: Internet_Sales_Cube {
     }
 
 
-    measure: Order_Quantity_Order_Retail445_Prev {
-        label: "Order Quantity Order Retail445-Prev"
-        type: average
-        sql: ${TABLE}.`Order Quantity Order Retail445-Prev`;;
-    }
-
-    measure: m_product_info_distinct_est {
-        label: "Product Info"
-        type: count_distinct
-        sql: ${TABLE}.`m_product_info_distinct_est`;;
-    }
-
-    measure: LTM {
-        label: "LTM"
-        group_label: "Andres\Test"
-        type: average
-        sql: ${TABLE}.`LTM`;;
-    }
-
     measure: customercount1 {
         label: "Customer Count"
         group_label: "Customer Metrics"
