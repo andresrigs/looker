@@ -901,6 +901,12 @@ view: Internet_Sales_Cube {
     }
 
 
+    measure: m_productkey_max {
+        label: "AAAndres"
+        type: max
+        sql: ${TABLE}.`m_productkey_max`;;
+    }
+
     measure: Order_Quantity_Order_Retail445_Prev {
         label: "Order Quantity Order Retail445-Prev"
         type: average
