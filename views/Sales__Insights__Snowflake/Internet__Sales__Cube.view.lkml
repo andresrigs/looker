@@ -901,6 +901,12 @@ view: Internet_Sales_Cube {
     }
 
 
+    measure: m_productkey_max {
+        label: "AAAndres"
+        type: max
+        sql: ${TABLE}.`m_productkey_max`;;
+    }
+
     measure: customercount1 {
         label: "Customer Count"
         group_label: "Customer Metrics"
